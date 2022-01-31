@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="log"
+            type="com.polytech.applicationws.services.LogProperty" />
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="0,1,2">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/tv_MAC_log"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@{log.MAC}"
+                    android:textColor="@{log.granted ? @color/green : @color/red}"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/tv_uid_log"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@{log.uid}"
+                    android:textColor="@{log.granted ? @color/green : @color/red}"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/tv_date_log"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@{log.formattedDate}"
+                    android:textColor="@{log.granted ? @color/green : @color/red}"
+                    android:textAlignment="center" />
+            </TableRow>
+
+        </TableLayout>
+    </androidx.cardview.widget.CardView>
+</layout>

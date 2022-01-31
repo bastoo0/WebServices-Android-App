@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/layout/activity_lock_list.xml" value="0.17395833333333333" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_menu.xml" value="0.2798913043478261" />
+        <entry key="app/src/main/res/layout/activity_register.xml" value="0.3203125" />
+        <entry key="app/src/main/res/layout/fragment_actors.xml" value="0.20104166666666667" />
+        <entry key="app/src/main/res/layout/fragment_add_actor.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/fragment_add_lock.xml" value="0.2548330404217926" />
+        <entry key="app/src/main/res/layout/fragment_lock_list.xml" value="0.2966485507246377" />
+        <entry key="app/src/main/res/layout/fragment_logs_list.xml" value="0.20104166666666667" />
+        <entry key="app/src/main/res/layout/fragment_menu.xml" value="0.27445652173913043" />
+        <entry key="app/src/main/res/layout/item_acrors.xml" value="0.27445652173913043" />
+        <entry key="app/src/main/res/layout/item_lock_list.xml" value="0.18020833333333333" />
+        <entry key="app/src/main/res/layout/item_logs_list.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/item_menu.xml" value="0.2359375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
